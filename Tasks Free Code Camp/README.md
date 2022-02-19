@@ -3,3 +3,6 @@
 Решение на 300 задач по HTML and CSS и сертификат об успшном прохождении курса.
 
 Решение более чем на 250 задач по JavaScript.
+
+
+Link https://kubanychbek02.github.io/Projects/Calculator/calc.html
