@@ -1,0 +1,73 @@
+@import "../../scss/var";
+
+.topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 70px;
+  background-color: $light;
+  color: $main-color;
+  transition: all 0.9s ease;
+  z-index: 2;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    margin-right: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &__contact-item {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+
+    .topbar__icon {
+      margin-right: 5px;
+      font-size: 1.8rem;
+      color: inherit;
+    }
+  }
+
+  span {
+    font-size: 15px;
+  }
+
+  &__nav-toggler {
+    width: 40px;
+    height: 40px;
+    margin-top: 4px;
+    padding: 10px 10px;
+    background-image: url("../../assets/images/burger.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.6s ease;
+  }
+
+  &--active {
+    background-color: $main-color;
+    color: $light;
+
+    & .topbar__nav-toggler {
+      background-color: $light;
+      background-image: url("../../assets/images/cross.svg");
+    }
+  }
+}

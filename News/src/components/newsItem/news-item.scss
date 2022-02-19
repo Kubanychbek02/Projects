@@ -1,0 +1,21 @@
+@import "../../scss/var";
+
+.news__item {
+  width: 30%;
+  border: 1px solid $accent;
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  a {
+    text-decoration: none;
+    color: $accent;
+  }
+
+  p {
+    margin: 0;
+  }
+}
