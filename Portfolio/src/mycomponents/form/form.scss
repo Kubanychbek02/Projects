@@ -1,0 +1,51 @@
+.contacts{
+    margin-top: 50px;
+    padding: 1.5em;
+    text-align: center;
+    color: black;
+    background-color: rgb(238, 238, 238);
+
+    &__title{
+        font-family: Oswald;
+        font-weight: 550;
+    }
+
+    &__inner{
+        padding-top: 50px;
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    label {
+        margin-bottom: 1em;
+    }
+
+    input, button {
+        margin-bottom: 1em;
+        margin-top: 10px;
+        border: none;
+        padding: 10px 15px;
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    button {
+        width: 30%;
+        cursor: pointer;
+        background-color: #333;
+        transition: all .2s ease;
+        font-size: 18px;
+        color: white;
+        &:hover{
+            background-color: lighten(red, 20%);
+            color: black;
+        }
+    }
+}
+
+@media(max-width: 570px) {
+    .contacts{
+        padding: 0;
+    }
+}

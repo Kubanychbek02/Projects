@@ -1,0 +1,12 @@
+.item {
+    font-size: 15px;
+    margin-right: 40px;
+    padding: 7px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  
+    &--active {
+      background-color: black;
+      color: white;
+    }
+}

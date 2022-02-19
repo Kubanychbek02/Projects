@@ -1,0 +1,100 @@
+
+
+.topbar{
+    padding: 15px 50px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(243, 243, 243, 0.9);
+    position:sticky;
+    z-index: 9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+
+    &__inner{
+        display: flex;
+        align-items: center;
+    }
+
+    &__left{
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo{
+        margin-right: 250px;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 700;
+        color: black;
+    }
+
+    &__contacts{
+        font-size: 20px;
+    }
+
+    &__contacts + &__contacts{
+        margin-left: 60px;
+    }
+
+    &__icon{
+        margin-right: 10px;
+    }
+
+    &__nav-toggler {
+        margin-left: 140px;
+        width: 40px;
+        height: 40px;
+        margin-top: 4px;
+        padding: 10px 10px;
+        background-image: url("https://i.ya-webdesign.com/images/hamburger-icon-png-7.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 24px 24px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        transition: all 0.6s ease;
+    }
+
+    &-active {
+    
+        & .topbar__nav-toggler {
+          background-image: url("http://cdn.onlinewebfonts.com/svg/img_143166.png");
+        }
+    }
+
+    &__contact{
+        font-size: 19px;
+        color: black;
+        text-decoration: none;
+    }
+
+    &__socials{
+        margin-left: 100px;
+        display: flex;
+        gap: 16px;
+    }
+
+    &__contact{
+        margin-top: -20px;
+    }
+
+    &__icons{
+        margin-left: 20px;
+        width: 90px;
+        color: black;
+        size: 100px;
+    }
+}
+
+@media(max-width: 570px) {
+    .topbar {
+
+        &__contacts{
+            display: none;
+        }
+
+        &__socials{
+            display: none;
+        }
+    }
+}

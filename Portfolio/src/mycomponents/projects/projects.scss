@@ -1,0 +1,62 @@
+.projects{
+
+    padding: 50px;
+
+    &__title{
+        font-family: Oswald;
+        font-size: 40px;
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    &__inner{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    &__item{
+        max-width: 450px;
+
+        &:hover .projects__show{
+            opacity: 1;
+        }
+
+        &:hover .projects__img{
+            opacity: 0.4;
+        }
+    }
+
+    &__titles{
+        font-family: Oswald;
+        letter-spacing: 7px;
+    }
+
+    &__descr{
+        font-family: Oswald;
+        font-size: 18px
+    }
+
+    &__img{
+        width: 350px;
+        height: 200px;
+        opacity: 0.9;
+    }
+
+    &__show{
+       
+        background: rgba(255, 255, 255, 0.5);
+        z-index: 2;
+        margin: 40px 0 0 40px;
+        padding: 0 70px;
+        opacity: 0;
+        position: absolute;
+        text-align: center;
+        color: black;
+        border: 1.5px solid black;
+        transition: ease 1s;
+    }
+
+
+}

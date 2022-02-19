@@ -1,0 +1,10 @@
+export {default as Topbar} from "./topbar/Topbar";
+export {default as Baner} from "./baner/Baner";
+export {default as About} from "./about/About";
+export {default as Menu} from "./menu/Menu";
+export {default as AboutCat} from "./aboutCat/AboutCat";
+export {default as NewsCat} from "./newsCat/NewsCat";
+export {default as News} from "./news/News";
+export {default as Contacts} from "./form/Form";
+export {default as Skills} from "./skills/Skills";
+export {default as Projects} from "./projects/Projects";
