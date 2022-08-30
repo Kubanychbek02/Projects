@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "title": "ppp",
+      "body": "yes!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+      "id": 21
+    },
+    {
+      "title": "ooo",
+      "body": "ooo",
+      "id": 22
+    },
+    {
+      "title": "mm",
+      "body": "mm",
+      "id": 23
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
