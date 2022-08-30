@@ -1,1 +1,1 @@
-Github api with react-redux Vladilen 08.2022
+Github api with react-redux tailwind css Vladilen 08.2022
